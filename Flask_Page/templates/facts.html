@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>{{ the_title }}</h1>
+
+<img alt="Photo: Tigger" src="{{ url_for('static', filename='images/tiggger.png') }}">
+<p class="credit">fictional character in A.A. Milne's Winnie-the-Pooh books and their adaptations; an anthropomorphic toy tiger</p>
+
+<ul>
+    <li><a href="{{ url_for('myth') }}">In myth and legend</a></li>
+    <li><a href="{{ url_for('symbol') }}">As a symbol</a></li>
+    <li><a href="{{ url_for('index') }}">Home page</a></li>
+</ul>
+
+<p>1.TIGERS ARE THE LARGEST AMONG OTHER WILD CATS</p>
+<p>Royal Bengal Tigers are the largest big cat amongst other wild cats, with male tigers weighing up to 300 kilograms! You definitely wouldn’t want one of these heavy kitties to pounce on you!</p>
+
+<p>2.TIGERS ARE CHATTY CATS!</p>
+<p>When you think of tiger sounds, you might think about their mighty roars (which can be heard as far as three kilometres away!), but tigers actually vocalise in a number of different ways. Tigers can grunt, groan, growl, snarl, chuff, hiss, and gasp. Next on the noise list, ‘Is there any more tea please?'</p>
+
+<p>3.TIGERS PREFER TO HUNT AT NIGHT</p>
+<p>Tigers mostly hunt at night because they are nocturnal animals. This means they sleep during the day, and are out and about at night - unlike our Tiger who does all his cupboard raiding at lunchtime!  Tigers also usually hunt at night to avoid humans and other animals - like all sensible creatures, they want to avoid being disturbed as much as possible!</p>
+
+<p>4.TIGER CUBS ARE BORN BLIND</p>
+<p>Did you know that tiger cubs are born blind? That’s right. These tiny, soft little bundles of fur have to focus on their other senses, like scent, in order to find out where their other siblings and mother are in a den. They then open their eyes 1 - 2 weeks after birth.</p>
+
+<p>5.TIGERS ARE GOOD SWIMMERS</p>
+<p>Unlike other cats, Tigers are excellent swimmers and love nothing more than a dip in the water. They also spend hours playing in rivers, which is an excellent way to have fun and cool off! Our Tiger would prefer a big old milkshake.</p>
+
+<p>6.TIGERS ARE FAST!</p>
+<p>Although not as fast as their speedy big cat cousins, the cheetah, tigers use their powerful legs to sprint across short distances. When they really get going a tiger can run up to approx. 60 kilometres per hour. Our Tiger prefers to get his exercise in with Tigerrobics…</p>
+
+<p>7.NO TWO TIGERS HAVE THE SAME STRIPES</p>
+<p>Just like human fingerprints, no two tigers have the same stripes. This means that every single tiger is unique, just like us!</p>
+
+<p>8.TIGERS HAVE KING WRITTEN ON THEM</p>
+<p>It might sound strange, but even though all tigers have unique stripes, because of their patterning most tigers actually have the Chinese symbol for ‘King’ on their foreheads. Kingly coincidence or meant to be? Our Tiger is certainly treated like royalty! More tea sir? Coming right up!</p>
+
+<p>9.TIGERS HAVE GOOD MANNERS</p>
+<p>Tigers have surprisingly good manners and will often share their catch from a hunt with another tiger. (Looking at you Tiger, perhaps you should share those buns hmm?) In the wild, the males tend to let females and cubs eat first before they tuck in.</p>
+
+<p>10.TIGER WEE SMELLS LIKE BUTTERED POPCORN</p>
+<p>You’ll probably have to take our word for it, but tiger wee spells of buttered popcorn. If you see our Tiger on stage, best not to ask.</p>
+
+<p>(Text from <a href="https://www.tigerstealive.com/tiger-who-came-to-tea-blog/10-fun-facts-about-tigers-you-didn-t-know" target="_blank">www.tigerstealive.com</a>)</p>
+
+{% endblock %}
